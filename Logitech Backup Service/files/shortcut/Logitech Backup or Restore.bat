@@ -14,11 +14,11 @@ ECHO       ...............................................
 ECHO       Select an option and Press Enter, or 5 to EXIT
 ECHO       ...............................................
 ECHO.
-ECHO 1 - RE-Install or Repair -install detected-
-ECHO 2 - Backup LGHUB Settings
-ECHO 3 - Restore LGHUB Settings
-ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login
-ECHO 5 - EXIT Menu
+ECHO - 1 - RE-Install or Repair -install detected-
+ECHO - 2 - Backup LGHUB Settings
+ECHO - 3 - Restore LGHUB Settings
+ECHO - 4 - Schedule Windows Startup Task to Backup Settings on Login
+ECHO - 5 - EXIT Menu
 ECHO. 
 set /A installed=1
 GOTO PSTMEN
@@ -34,17 +34,17 @@ ECHO       ...............................................
 ECHO       Select and options and Press Enter, or 5 to EXIT
 ECHO       ...............................................
 ECHO.
-ECHO 1 - Install -needed to backup or restore-
-ECHO 2 - Backup LGHUB Settings
-ECHO 3 - Restore LGHUB Settings
-ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login
-ECHO 5 - EXIT Menu
+ECHO - 1 - Install -needed to backup or restore-
+ECHO - 2 - Backup LGHUB Settings
+ECHO - 3 - Restore LGHUB Settings
+ECHO - 4 - Schedule Windows Startup Task to Backup Settings on Login
+ECHO - 5 - EXIT Menu
 ECHO.
 set /A installed=0
 GOTO PSTMEN
 )
 :PSTMEN 
-SET /P M=Type 1, 2, 3, 4, or 5 then press ENTER:
+SET /P M=Type a number 1-4 to select, or 5 to exit, then press ENTER:
 IF %M%==1 GOTO INSTAL
 IF %M%==2 GOTO BACK
 IF %M%==3 GOTO RESTO
