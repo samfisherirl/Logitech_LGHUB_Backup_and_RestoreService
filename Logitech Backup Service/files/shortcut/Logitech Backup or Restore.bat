@@ -13,7 +13,7 @@ ECHO       ...............................................
 ECHO       Select an option and Press Enter, or 5 to EXIT
 ECHO       ...............................................
 ECHO.
-if exist %ProgramData%\LogitechBackup\ (
+if exist "%ProgramData%\Logitech Backup Settings Scripts Macros.bat" (
 ECHO - 1 - RE-Install or Repair -install detected-
 ) else ( 
 ECHO - 1 - Install -needed to backup or restore-
