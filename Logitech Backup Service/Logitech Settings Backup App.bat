@@ -17,7 +17,7 @@ ECHO.
 ECHO 1 - RE-Install or Repair -install detected-
 ECHO 2 - Backup LGHUB Settings
 ECHO 3 - Restore LGHUB Settings
-ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login -future feature-
+ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login
 ECHO 5 - EXIT Menu
 ECHO. 
 set /A installed=1
@@ -37,7 +37,7 @@ ECHO.
 ECHO 1 - Install -needed to backup or restore-
 ECHO 2 - Backup LGHUB Settings
 ECHO 3 - Restore LGHUB Settings
-ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login -future feature-
+ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login
 ECHO 5 - EXIT Menu
 ECHO.
 set /A installed=0
