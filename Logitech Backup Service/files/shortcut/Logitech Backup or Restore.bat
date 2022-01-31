@@ -11,13 +11,13 @@ ECHO       ...............................................
 ECHO.
 ECHO.
 ECHO       ...............................................
-ECHO       Select and options and Press Enter, or 5 to EXIT
+ECHO       Select an option and Press Enter, or 5 to EXIT
 ECHO       ...............................................
 ECHO.
 ECHO 1 - RE-Install or Repair -install detected-
 ECHO 2 - Backup LGHUB Settings
 ECHO 3 - Restore LGHUB Settings
-ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login 
+ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login
 ECHO 5 - EXIT Menu
 ECHO. 
 set /A installed=1
@@ -37,7 +37,7 @@ ECHO.
 ECHO 1 - Install -needed to backup or restore-
 ECHO 2 - Backup LGHUB Settings
 ECHO 3 - Restore LGHUB Settings
-ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login 
+ECHO 4 - Schedule Windows Startup Task to Backup Settings on Login
 ECHO 5 - EXIT Menu
 ECHO.
 set /A installed=0
