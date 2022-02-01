@@ -12,8 +12,8 @@ Do not move app from folder containing 'files' before install.
 - From there you can use the below services. 
 - The icon on your desktop can be moved anywhere. 
 
-- - This app saves and restores LGHUB settings, profiles, macros, and scripts.  - - 
-- - (backup on windows start with optional folder in main git) - - 
+This app saves and restores LGHUB settings, profiles, macros, and scripts. 
+(backup on windows start with optional folder in main git)
 
 - Install sends backup and restore bat files to C:\programdata\ and app gui to desktop
 
