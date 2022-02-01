@@ -1,7 +1,9 @@
  
 
 -Extract if zipped
+
 -open app in main folder 
+
 -select install
 
 Do not move app from folder containing 'files' before install.
