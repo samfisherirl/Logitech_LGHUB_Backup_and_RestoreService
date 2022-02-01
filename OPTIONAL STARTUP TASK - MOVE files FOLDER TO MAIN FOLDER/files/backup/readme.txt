@@ -15,7 +15,7 @@ move the 'files' folder into the main folder with app to allow the program to cr
 
 or move 
 'create startup task.exe'
-to /files/backup/
+to /files/backup/ or /programdata/ after install
 
 https://github.com/samfisherirl/LogitechBackupandRestoreService
 
