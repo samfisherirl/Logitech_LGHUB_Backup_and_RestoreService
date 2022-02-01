@@ -11,11 +11,10 @@ Backup gets sent to C:\programdata\LogitechBackup\
 Restore overwrites data in C:\programdata\LGHUB
 
 if you want a startup task to backup files every time you boot windows, download optional folder from github. 
-move the 'files' folder into the main folder with app to allow the program to create a startup task. 
 
-or move 
+move 
 'create startup task.exe'
-to /files/backup/
+to  c:/programdata/ after install
 
 https://github.com/samfisherirl/LogitechBackupandRestoreService
 
