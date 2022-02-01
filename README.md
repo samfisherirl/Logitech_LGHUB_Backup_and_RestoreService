@@ -11,3 +11,5 @@ Backup gets sent to C:\programdata\LogitechBackup\
 
 Restore overwrites data in C:\programdata\LGHUB
 
+if you want a startup task, move the 'files' folder into the main folder with app to allow the program to create a startup task. 
+
