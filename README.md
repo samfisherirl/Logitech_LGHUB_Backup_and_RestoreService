@@ -1,6 +1,6 @@
 dont move app from folder before you have installed. 
 
-Extract if zipped, open app in main folder and select install. From menu select install. This will just move a folder to programdata, and create a desktop icon. 
+Extract if zipped, open app in main folder. From menu select install. This will just move a folder to programdata, and create a desktop icon. 
 you can move the desktop icon/app whereever you want. 
 
 
