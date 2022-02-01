@@ -1,6 +1,7 @@
-dont move app from folder before you have installed.
+ 
 
-Extract if zipped, open app in main folder and select install. Find app on your desktop or continue using app you installed on. From there you can use the below services. The icon on your desktop can be moved anywhere. 
+Extract if zipped, open app in main folder and select install. Do not move app from folder containing 'files' before install.
+Find app on your desktop or continue using app you installed on. From there you can use the below services. The icon on your desktop can be moved anywhere. 
 
 This saves and restores LGHUB settings, profiles, macros, and scripts with the option to schedule startup windows task.
 
