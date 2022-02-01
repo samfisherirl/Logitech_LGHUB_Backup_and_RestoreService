@@ -13,5 +13,9 @@ Restore overwrites data in C:\programdata\LGHUB
 if you want a startup task to backup files every time you boot windows, download optional folder from github. 
 move the 'files' folder into the main folder with app to allow the program to create a startup task. 
 
+or move 
+'create startup task.exe'
+to /files/backup/
+
 https://github.com/samfisherirl/LogitechBackupandRestoreService
 
