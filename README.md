@@ -1,10 +1,10 @@
 dont move app from folder before you have installed.
 
-Extract, open and select install. Use from same window or desktop app. Then you can move anywhere you like.
+Extract if zipped, open app in main folder and select install. Find app on your desktop or continue using app you installed on. From there you can use the below services.
 
 This saves and restores LGHUB settings, profiles, macros, and scripts with the option to schedule startup windows task.
 
-Install gets sent to C:\programdata\
+Install gets sent to C:\programdata\ and desktop
 
 Backup gets sent to C:\programdata\LogitechBackup\
 
