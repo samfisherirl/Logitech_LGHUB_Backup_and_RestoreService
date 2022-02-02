@@ -1,43 +1,5 @@
-::[Bat To Exe Converter]
-::
-::YAwzoRdxOk+EWAnk
-::fBw5plQjdG8=
-::YAwzuBVtJxjWCl3EqQJgSA==
-::ZR4luwNxJguZRRnk
-::Yhs/ulQjdF+5
-::cxAkpRVqdFKZSDk=
-::cBs/ulQjdF+5
-::ZR41oxFsdFKZSDk=
-::eBoioBt6dFKZSDk=
-::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
-::dAsiuh18IRvcCxnZtBJQ
-::cRYluBh/LU+EWAnk
-::YxY4rhs+aU+JeA==
-::cxY6rQJ7JhzQF1fEqQJQ
-::ZQ05rAF9IBncCkqN+0xwdVs0
-::ZQ05rAF9IAHYFVzEqQJQ
-::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
-::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
-::cRolqwZ3JBvQF1fEqQJQ
-::dhA7uBVwLU+EWDk=
-::YQ03rBFzNR3SWATElA==
-::dhAmsQZ3MwfNWATElA==
-::ZQ0/vhVqMQ3MEVWAtB9wSA==
-::Zg8zqx1/OA3MEVWAtB9wSA==
-::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJGyX8VAjFB9bWwGQAE+/Fb4I5/jHzv+TrX4eRusvbLPDlLGWJYA=
-::YB416Ek+ZG8=
-::
-::
-::978f952a14a936cc963da21a135fa983
 ECHO OFF
-TITLE Logitech Backup and Restore Service
-if exist "*\files\" (
-GOTO MENU
-) else (
-    GOTO PSTMEN
-)
+TITLE Logitech Backup and Restore Service 
 CLS
 :MENU
 ECHO.
@@ -81,6 +43,7 @@ ECHO.
 GOTO MENU
 rem //////////backup/////////.
 :BACK
+if exist "%ProgramData%\Logitech Backup Settings Scripts Macros.bat" (
 ECHO. Backing up files...
 ECHO. 
 ECHO. 
@@ -89,8 +52,32 @@ cd %ProgramData%
 Start ""  ".\Logitech Backup Settings Scripts Macros.bat" 
 Cls
 GOTO MENU
+) else ( 
+GOTO WTF 
+)
+rem //////////new thing /////////.
+:WTF 
+Cls
+ECHO.
+ECHO. Error, you have either not installed or 
+ECHO. moved the main app from the apps folder before install. 
+ECHO. Exit and return this file to main folder and install. 
+Pause
+exit  
+rem //////////new thing /////////.
+:FTW
+Cls
+ECHO.
+ECHO. Error, this feature requires downloading  
+ECHO. the optional folder from github. Goto readme.txt in app folder
+ECHO. Or search samfisherirl on github. 
+ECHO.
+Pause
+Cls
+GOTO MENU  
 rem //////////restore/////////.
 :RESTO
+if exist "%ProgramData%\Logitech Backup Settings Scripts Macros.bat" (
 ECHO. Restoring Settings...
 ECHO. 
 ECHO. 
@@ -102,8 +89,12 @@ ECHO.
 ECHO.Your LGHUB settings and profile have been restored from the last backup
 ECHO.
 GOTO MENU
+) else ( 
+GOTO WTF 
+)
 rem ///////////onlogin start task//////////
 :STARTSK 
+if exist "%ProgramData%\create startup task.exe" (
 ECHO. Schedule Task to Backup LGHUB settings on Startup.
 ECHO.
 ECHO. This Requires Admin, Opening New Window. 
@@ -115,6 +106,9 @@ Cls
 ECHO. New window opened to schedule backup task. If you did not receive a prompt, please reinstall. 
 ECHO. 
 GOTO MENU
+) else ( 
+GOTO FTW 
+)
 rem //////////exit/////////.
 :EXI
 CLS 

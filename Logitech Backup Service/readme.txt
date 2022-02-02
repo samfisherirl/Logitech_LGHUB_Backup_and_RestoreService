@@ -1,29 +1,20 @@
--Extract if zipped
+dont move app from folder before you have installed.
 
--open app in main folder
+Extract if zipped, open app in main folder and select install. Find app on your desktop or continue using app you installed on. From there you can use the below services. The icon on your desktop can be moved anywhere. 
 
--select install
+This saves and restores LGHUB settings, profiles, macros, and scripts with the option to schedule startup windows task.
 
-Do not move app from folder containing 'files' before install.
+Install gets sent to C:\programdata\ and desktop
 
-Find app on your desktop or continue using app you installed on.
-From there you can use the below services.
-The icon on your desktop can be moved anywhere.
-This app saves and restores LGHUB settings, profiles, macros, and scripts. (backup on windows start with optional folder in main git)
+Backup gets sent to C:\programdata\LogitechBackup\
 
-- Install sends backup and restore bat files to C:\programdata\ and app gui to desktop
+Restore overwrites data in C:\programdata\LGHUB
 
-- Backup files get sent to C:\programdata\LogitechBackup\
+if you want a startup task to backup files every time you boot windows, download optional folder from github. 
 
-- Restore overwrites data in C:\programdata\LGHUB only if you have backup files. it doesnt overwrite anything new or not saved.
-
-if you want a startup task to backup files every time you boot windows, download optional folder from github.
-
-move 'create startup task.exe' to c:/programdata/ after install
+move 
+'create startup task.exe'
+to  c:/programdata/ after install
 
 https://github.com/samfisherirl/LogitechBackupandRestoreService
-
-DL
-
-https://github.com/samfisherirl/LogitechBackupandRestoreService/releases
 
