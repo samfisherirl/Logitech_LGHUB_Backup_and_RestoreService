@@ -94,14 +94,14 @@ GOTO WTF
 )
 rem ///////////onlogin start task//////////
 :STARTSK 
-if exist "%ProgramData%\create startup task.exe" (
+if exist "%ProgramData%\schedule tasks.bat" (
 ECHO. Schedule Task to Backup LGHUB settings on Startup.
 ECHO.
 ECHO. This Requires Admin, Opening New Window. 
 ECHO. 
 ECHO. 
 cd %ProgramData%
-Start ""  ".\create startup task.exe" 
+Start ""  ".\schedule tasks.bat" 
 Cls
 ECHO. New window opened to schedule backup task. If you did not receive a prompt, please reinstall. 
 ECHO. 
