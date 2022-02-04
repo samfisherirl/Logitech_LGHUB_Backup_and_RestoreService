@@ -1,6 +1,7 @@
 
 ECHO OFF  
 TITLE Logitech Backup and Restore Service 
+timeout /t 1
 cd %cd%
 xcopy /y /s /i /q ".\files\backup\install\" "%programdata%"
 xcopy /y /s /i /q ".\files\backup\shortcut\" "%userprofile%\desktop"
@@ -11,4 +12,3 @@ ECHO.
 ECHO.A shortcut has been added to the Desktop
 ECHO.
 ECHO.
-timeout /t 2
