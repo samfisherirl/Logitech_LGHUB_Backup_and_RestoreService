@@ -21,11 +21,7 @@ This app saves and restores LGHUB settings, profiles, macros, and scripts.
 
 - Restore overwrites data in C:\programdata\LGHUB only if you have backup files. it doesnt overwrite anything new or not saved. 
 
-if you want a startup task to backup files every time you boot windows, download optional folder from github. 
-
- move 
- 'create startup task.exe'
- to  c:/programdata/ after install
+- Startup creates a task on launch to backup in the background. 
 
  https://github.com/samfisherirl/LogitechBackupandRestoreService
 
