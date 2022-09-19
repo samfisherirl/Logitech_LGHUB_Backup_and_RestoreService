@@ -28,4 +28,5 @@ This app saves and restores LGHUB settings, profiles, macros, and scripts.
  DL
 
  https://github.com/samfisherirl/LogitechBackupandRestoreService/releases 
-![unknown (2)](https://user-images.githubusercontent.com/98753696/191120282-33339bcd-6bc0-45b5-8012-ab532c9d431c.png)
+ 
+![unknown (1)](https://user-images.githubusercontent.com/98753696/191120432-306ba990-9ac3-4913-96c4-336a68278dd6.png)
